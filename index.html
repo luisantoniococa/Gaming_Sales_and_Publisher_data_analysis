@@ -8,11 +8,27 @@
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 <body>
-  <h1>Open the console!</h1>
-  <div id="myDiv">
+  <h1>Game comparison</h1>
+  <div id="myDiv" style="margin-bottom: 50px;"></div>
+  <div></div>
+  <div></div>
 
-  </div>
+  <select id="selGame1" onchange="optionChanged1(this.value)">
+    <option value="default">--Game 1--</option>
+
+  </select>
+  <select id="selGame2" onchange="optionChanged2(this.value)">
+    <option value="default">--Game 2--</option>
+  
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.7/d3.min.js"></script>
   <script src="steam_players.js"></script>
+  <script src="https://d3js.org/d3-time.v1.min.js"></script>
+<script src="https://d3js.org/d3-time-format.v2.min.js"></script>
+<script>
+
+var format = d3.timeFormat("%B %Y");
+
+</script>
 </body>
 </html>
