@@ -170,13 +170,18 @@ function init(){
       };
       var layout = {
         title: "Average Players per month ",
+        plot_bgcolor:"black",
+        paper_bgcolor:"#FFF3",
         xaxis: {
+          // showgrid: true,
+          // gridcolor: 'white',
+          // gridwidth: 0.1,
           title: 'Month',
           tickformat: '%B %Y',
           autorange: true,
           titlefont: {
             family: 'Arial, sans-serif',
-            size: 18,
+            size: 50,
             color: 'lightgrey'
           },
           showticklabels: true,
@@ -189,6 +194,9 @@ function init(){
           },
         },
         yaxis: {
+          showgrid: true,
+          gridcolor: 'white',
+          gridwidth: 0.1,
           title: 'AVG. Players per month',
           titlefont: {
             family: 'Arial, sans-serif',
