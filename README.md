@@ -36,4 +36,8 @@ REFERENCES publisher (publisher_id)
  publisher_name varchar, 
 ticker varchar). 
 We can further clean this data as desired for our future group projects. 
- 
+# Machine Learning Regression Analysis
+
+The slides for the machine learning section of this project can be find in the link below
+
+https://docs.google.com/presentation/d/1W2BlJyfLL7RiZf6Fm4X1u9NhNIjAnqDd9qg9sSgx6nY/edit?usp=sharing
